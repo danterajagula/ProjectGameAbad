@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bofbfolml3kjh"]
+
+[ext_resource type="Texture2D" uid="uid://cjh0kl4bkxjmp" path="res://Fall (32x32).png" id="1_u6hyn"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7paj6"]
+
+[node name="CharacterBody2D2" type="CharacterBody2D" unique_id=1641294895]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=26044230]
+texture_filter = 1
+position = Vector2(188, 261)
+rotation = 1.7802359
+texture = ExtResource("1_u6hyn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D" unique_id=761937865]
+rotation = 6.2831855
+shape = SubResource("CircleShape2D_7paj6")
